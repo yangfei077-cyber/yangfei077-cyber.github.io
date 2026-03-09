@@ -7,7 +7,6 @@ document.querySelector('#app').innerHTML = `
         <a class="brand-chip" href="#" data-scroll="hero">Yang Fei</a>
         <nav class="desktop-nav">
           <button type="button" data-scroll="hero">Hero</button>
-          <button type="button" data-scroll="stack">Tech Stack</button>
           <button type="button" data-scroll="missions">Project History</button>
           <button type="button" data-scroll="contact">Contact</button>
         </nav>
@@ -43,21 +42,6 @@ document.querySelector('#app').innerHTML = `
                 <p>Developer</p>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section class="desktop-stack-section" data-section="stack">
-          <div class="section-heading">
-            <h2>Tech Stack! Pow! Bam!</h2>
-            <span></span>
-          </div>
-          <div class="desktop-stack-grid">
-            <article class="stack-card yellow"><small>⚡</small><strong>JS</strong></article>
-            <article class="stack-card blue"><small>◈</small><strong>React</strong></article>
-            <article class="stack-card green"><small>▣</small><strong>Node</strong></article>
-            <article class="stack-card cobalt"><small>◇</small><strong>TS</strong></article>
-            <article class="stack-card orange"><small>☁</small><strong>AWS</strong></article>
-            <article class="stack-card purple"><small>▤</small><strong>SQL</strong></article>
           </div>
         </section>
 
@@ -159,7 +143,6 @@ document.querySelector('#app').innerHTML = `
 
       <div class="mobile-menu" hidden>
         <button type="button" data-scroll="mobile-hero">Hero</button>
-        <button type="button" data-scroll="mobile-stack">Tech Stack</button>
         <button type="button" data-scroll="mobile-projects">Project History</button>
         <button type="button" data-scroll="mobile-contact">Contact</button>
       </div>
@@ -183,20 +166,6 @@ document.querySelector('#app').innerHTML = `
               <button type="button" class="primary-action" data-scroll="mobile-projects">View Portfolio</button>
               <button type="button" class="secondary-action" data-scroll="mobile-contact">Contact</button>
             </div>
-          </div>
-        </section>
-
-        <section class="mobile-stack" data-section="mobile-stack">
-          <div class="mobile-section-title">
-            <h2>Tech Stack</h2>
-            <span></span>
-          </div>
-          <div class="mobile-sticker-column">
-            <article class="mobile-sticker tilt-left">JavaScript</article>
-            <article class="mobile-sticker tilt-right">React</article>
-            <article class="mobile-sticker tilt-left">Node</article>
-            <article class="mobile-sticker tilt-right">Postgres</article>
-            <article class="mobile-sticker tilt-left">Docker</article>
           </div>
         </section>
 
