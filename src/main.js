@@ -81,6 +81,38 @@ document.querySelector('#app').innerHTML = `
                 </div>
               </div>
             </article>
+
+            <article class="project-feature-card">
+              <a class="project-preview" href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">
+                <span class="project-preview-tag">View GitHub</span>
+              </a>
+
+              <div class="project-feature-copy">
+                <div class="mission-card-top project-feature-top">
+                  <h3>Moonriver</h3>
+                  <span>Project 02</span>
+                </div>
+                <p class="mission-role">Music education platform — all three Auth0 pillars in one app</p>
+                <p class="project-feature-description">
+                  Full-stack platform connecting music creators and students, built to showcase three pillars of Auth0 security working together: Fine-Grained Authorization (FGA) for relationship-based access control so students see only their own courses, creators see only their students, and admins have full visibility; RAG AI Chatbots scoped to each role's FGA-permitted data; and Token Vault to store and refresh third-party API secrets (OpenRouter AI key) server-side — never exposed to the client. Built entirely using Claude Code on a phone — no laptop required.
+                </p>
+                <div class="project-stack-list">
+                  <span>Next.js 15</span>
+                  <span>TypeScript</span>
+                  <span>Auth0 FGA</span>
+                  <span>Auth0 Token Vault</span>
+                  <span>RBAC</span>
+                  <span>RAG AI</span>
+                  <span>OpenRouter</span>
+                  <span>Neon PostgreSQL</span>
+                  <span>Tailwind CSS</span>
+                  <span>Shadcn UI</span>
+                </div>
+                <div class="project-link-row">
+                  <a href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">View GitHub</a>
+                </div>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -199,6 +231,32 @@ document.querySelector('#app').innerHTML = `
               <div class="project-link-row mobile-project-links">
                 <a href="https://yangfei077-cyber-bad-news.vercel.app/" target="_blank" rel="noreferrer">Visit</a>
                 <a href="https://github.com/yangfei077-cyber/bad-news" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card featured-mobile-project">
+              <span class="project-badge">Project 02</span>
+              <h3>Moonriver</h3>
+              <p>
+                Music education platform connecting creators and students, showcasing Auth0 FGA (role-scoped access), RAG AI chatbots (each scoped to the user's permitted data), and Token Vault (server-side secret storage). Built entirely on a phone using Claude Code — no laptop required.
+              </p>
+              <div class="project-stack-list mobile-project-stack">
+                <span>Next.js 15</span>
+                <span>TypeScript</span>
+                <span>Auth0 FGA</span>
+                <span>Token Vault</span>
+                <span>RAG AI</span>
+                <span>OpenRouter</span>
+                <span>Neon PostgreSQL</span>
+                <span>Tailwind CSS</span>
+              </div>
+              <div class="project-console">
+                <span>auth: FGA + RBAC</span>
+                <span>ai: RAG chatbot</span>
+                <span>secrets: token vault</span>
+              </div>
+              <div class="project-link-row mobile-project-links">
+                <a href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">GitHub</a>
               </div>
             </article>
           </div>
