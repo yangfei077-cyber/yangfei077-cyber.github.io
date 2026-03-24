@@ -84,6 +84,7 @@ document.querySelector('#app').innerHTML = `
 
             <article class="project-feature-card">
               <a class="project-preview" href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">
+                <img src="/projects/moonriver.jpg" alt="Moonriver admin dashboard screenshot" loading="lazy" />
                 <span class="project-preview-tag">View GitHub</span>
               </a>
 
@@ -235,6 +236,7 @@ document.querySelector('#app').innerHTML = `
             </article>
 
             <article class="project-card featured-mobile-project">
+              <img class="mobile-project-thumb" src="/projects/moonriver.jpg" alt="Moonriver admin dashboard screenshot" loading="lazy" />
               <span class="project-badge">Project 02</span>
               <h3>Moonriver</h3>
               <p>
