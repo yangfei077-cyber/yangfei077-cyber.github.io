@@ -83,9 +83,9 @@ document.querySelector('#app').innerHTML = `
             </article>
 
             <article class="project-feature-card">
-              <a class="project-preview" href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">
-                <img src="/projects/moonriver.jpg" alt="Moonriver admin dashboard screenshot" loading="lazy" />
-                <span class="project-preview-tag">View GitHub</span>
+              <a class="project-preview" href="https://moonriver-lake.vercel.app" target="_blank" rel="noreferrer">
+                <img src="/projects/admin-dashboard.jpg" alt="Moonriver admin dashboard screenshot" loading="lazy" />
+                <span class="project-preview-tag">Live Demo</span>
               </a>
 
               <div class="project-feature-copy">
@@ -110,6 +110,7 @@ document.querySelector('#app').innerHTML = `
                   <span>Shadcn UI</span>
                 </div>
                 <div class="project-link-row">
+                  <a href="https://moonriver-lake.vercel.app" target="_blank" rel="noreferrer">Live Demo</a>
                   <a href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">View GitHub</a>
                 </div>
               </div>
@@ -236,7 +237,7 @@ document.querySelector('#app').innerHTML = `
             </article>
 
             <article class="project-card featured-mobile-project">
-              <img class="mobile-project-thumb" src="/projects/moonriver.jpg" alt="Moonriver admin dashboard screenshot" loading="lazy" />
+              <img class="mobile-project-thumb" src="/projects/admin-dashboard.jpg" alt="Moonriver admin dashboard screenshot" loading="lazy" />
               <span class="project-badge">Project 02</span>
               <h3>Moonriver</h3>
               <p>
@@ -258,6 +259,7 @@ document.querySelector('#app').innerHTML = `
                 <span>secrets: token vault</span>
               </div>
               <div class="project-link-row mobile-project-links">
+                <a href="https://moonriver-lake.vercel.app" target="_blank" rel="noreferrer">Live</a>
                 <a href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">GitHub</a>
               </div>
             </article>
