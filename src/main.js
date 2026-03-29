@@ -115,6 +115,35 @@ document.querySelector('#app').innerHTML = `
                 </div>
               </div>
             </article>
+            <article class="project-feature-card">
+              <a class="project-preview" href="https://dev.to/yangfei077cyber/i-built-a-zero-click-prediction-market-research-engine-inside-notion-33ni" target="_blank" rel="noreferrer">
+                <img src="/projects/polydesk-watchlist.png" alt="PolyDesk Trading Desk in Notion" loading="lazy" />
+                <span class="project-preview-tag">Read Article</span>
+              </a>
+
+              <div class="project-feature-copy">
+                <div class="mission-card-top project-feature-top">
+                  <h3>PolyDesk</h3>
+                  <span>Project 03</span>
+                </div>
+                <p class="mission-role">Zero-click prediction market research engine inside Notion</p>
+                <p class="project-feature-description">
+                  An MCP server that turns Notion into a live Polymarket trading desk. Check a checkbox in Notion, AI research appears automatically — no commands, no switching apps. Powered by local Ollama LLM, 10-second background polling, and 22 MCP tools covering market discovery, edge scanning, Kelly criterion position sizing, and human-in-the-loop approval. Built for the Notion MCP Challenge on DEV Community.
+                </p>
+                <div class="project-stack-list">
+                  <span>TypeScript</span>
+                  <span>MCP SDK</span>
+                  <span>Notion API</span>
+                  <span>Polymarket</span>
+                  <span>Ollama</span>
+                  <span>Claude Desktop</span>
+                </div>
+                <div class="project-link-row">
+                  <a href="https://dev.to/yangfei077cyber/i-built-a-zero-click-prediction-market-research-engine-inside-notion-33ni" target="_blank" rel="noreferrer">Read Article</a>
+                  <a href="https://github.com/yangfei077-cyber/notion-challenge-mcp" target="_blank" rel="noreferrer">View GitHub</a>
+                </div>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -261,6 +290,31 @@ document.querySelector('#app').innerHTML = `
               <div class="project-link-row mobile-project-links">
                 <a href="https://moonriver-lake.vercel.app" target="_blank" rel="noreferrer">Live</a>
                 <a href="https://github.com/yangfei077-cyber/moonriver" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+            <article class="project-card featured-mobile-project">
+              <img class="mobile-project-thumb" src="/projects/polydesk-watchlist.png" alt="PolyDesk Trading Desk in Notion" loading="lazy" />
+              <span class="project-badge">Project 03</span>
+              <h3>PolyDesk</h3>
+              <p>
+                MCP server turning Notion into a live Polymarket trading desk. Check a checkbox — AI research appears automatically via local Ollama. 22 tools, edge scanning, Kelly criterion sizing, human-in-the-loop approval. Built for the Notion MCP Challenge.
+              </p>
+              <div class="project-stack-list mobile-project-stack">
+                <span>TypeScript</span>
+                <span>MCP SDK</span>
+                <span>Notion API</span>
+                <span>Polymarket</span>
+                <span>Ollama</span>
+                <span>Claude Desktop</span>
+              </div>
+              <div class="project-console">
+                <span>automation: zero-click</span>
+                <span>ai: local ollama</span>
+                <span>tools: 22 mcp tools</span>
+              </div>
+              <div class="project-link-row mobile-project-links">
+                <a href="https://dev.to/yangfei077cyber/i-built-a-zero-click-prediction-market-research-engine-inside-notion-33ni" target="_blank" rel="noreferrer">Article</a>
+                <a href="https://github.com/yangfei077-cyber/notion-challenge-mcp" target="_blank" rel="noreferrer">GitHub</a>
               </div>
             </article>
           </div>
