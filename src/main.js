@@ -144,6 +144,39 @@ document.querySelector('#app').innerHTML = `
                 </div>
               </div>
             </article>
+
+            <article class="project-feature-card">
+              <a class="project-preview" href="https://input-beige.vercel.app/" target="_blank" rel="noreferrer">
+                <img src="/projects/input.png" alt="Input daily snapshot app screenshot" loading="lazy" />
+                <span class="project-preview-tag">Live Demo</span>
+              </a>
+
+              <div class="project-feature-copy">
+                <div class="mission-card-top project-feature-top">
+                  <h3>Input</h3>
+                  <span>Project 04</span>
+                </div>
+                <p class="mission-role">Daily input from social media — focused on what's important</p>
+                <p class="project-feature-description">
+                  A daily snapshot of what the internet is saying. Input pulls posts from Reddit, Hacker News, dev.to, Bluesky, Mastodon, X/Twitter, Instagram, Tumblr and Pinterest, then uses Gemini 2.5 Flash to cluster and summarize them into a clean, prioritized feed of what actually matters. Runs on Vercel Cron for scheduled fetch and summarization pipelines, installable as a PWA, bilingual EN/中.
+                </p>
+                <div class="project-stack-list">
+                  <span>Next.js 16</span>
+                  <span>React 19</span>
+                  <span>TypeScript</span>
+                  <span>Tailwind CSS v4</span>
+                  <span>Drizzle ORM</span>
+                  <span>Turso / libSQL</span>
+                  <span>Gemini 2.5 Flash</span>
+                  <span>Vercel Cron</span>
+                  <span>PWA</span>
+                </div>
+                <div class="project-link-row">
+                  <a href="https://input-beige.vercel.app/" target="_blank" rel="noreferrer">Live Demo</a>
+                  <a href="https://github.com/yangfei077-cyber/Input" target="_blank" rel="noreferrer">View GitHub</a>
+                </div>
+              </div>
+            </article>
           </div>
         </section>
 
@@ -315,6 +348,34 @@ document.querySelector('#app').innerHTML = `
               <div class="project-link-row mobile-project-links">
                 <a href="https://dev.to/yangfei077cyber/i-built-a-zero-click-prediction-market-research-engine-inside-notion-33ni" target="_blank" rel="noreferrer">Article</a>
                 <a href="https://github.com/yangfei077-cyber/notion-challenge-mcp" target="_blank" rel="noreferrer">GitHub</a>
+              </div>
+            </article>
+
+            <article class="project-card featured-mobile-project">
+              <img class="mobile-project-thumb" src="/projects/input.png" alt="Input daily snapshot app screenshot" loading="lazy" />
+              <span class="project-badge">Project 04</span>
+              <h3>Input</h3>
+              <p>
+                Daily snapshot of what the internet is saying. Pulls posts from Reddit, HN, dev.to, Bluesky, Mastodon, X, Instagram and more, then uses Gemini 2.5 Flash to cluster and summarize them into a prioritized feed of what actually matters. PWA, bilingual EN/中.
+              </p>
+              <div class="project-stack-list mobile-project-stack">
+                <span>Next.js 16</span>
+                <span>React 19</span>
+                <span>TypeScript</span>
+                <span>Tailwind v4</span>
+                <span>Drizzle</span>
+                <span>Turso</span>
+                <span>Gemini 2.5</span>
+                <span>Vercel Cron</span>
+              </div>
+              <div class="project-console">
+                <span>sources: 10+ platforms</span>
+                <span>ai: gemini clustering</span>
+                <span>mode: pwa installable</span>
+              </div>
+              <div class="project-link-row mobile-project-links">
+                <a href="https://input-beige.vercel.app/" target="_blank" rel="noreferrer">Live</a>
+                <a href="https://github.com/yangfei077-cyber/Input" target="_blank" rel="noreferrer">GitHub</a>
               </div>
             </article>
           </div>
